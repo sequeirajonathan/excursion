@@ -1,0 +1,11 @@
+.background {
+	background-color: black;
+}
+
+.heading{
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
