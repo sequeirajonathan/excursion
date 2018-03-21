@@ -1,11 +1,34 @@
 .background {
-	background-color: black;
+	text-align: center;
 }
 
-.heading{
+#heading{
 	font-family: Verdana;
 	font-weight: normal;
 	font-size: 50px;
-	color: white;
-	text-align: center;
+	color:white;
+	
+}
+
+.sub-heading a {
+	color:aquamarine;
+	font-size: 16px;
+}
+
+.subject-heading {
+	font-family: Verdana;
+	font-weight: 300;
+	font-size: 42px;
+	color:white;
+}
+
+#gray-subject {
+	color: gray; 
+	font-family: Verdana; 
+	font-size: 21px;
+}
+
+#footer h2{
+	color: gray;
+	text-align: right;
 }
