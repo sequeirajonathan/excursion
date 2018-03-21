@@ -5,16 +5,21 @@
 	<link href="resources/css/style.css" style="text/css" rel="stylesheet">
 </head>
 
-<body bgcolor="black" class="background">
+<!-- background class ensures website has black background throughout and text is centered with white font color-->
+<body class="background">
 	<div>
+
 		<h1 id="heading">Discover Hiddden Places in the World Around You</h1>
 	</div>
+
 	<div>
+		<!-- creates a coming soon link of the project -->
 		<h3 class="sub-heading"><a href="#">Download Excursion (Coming Soon!)</a></h3>
 	</div>
 
 	<div>
-	
+		<!-- p element displays only when video does not play 
+			 video element autoplays the video and loops it to no leave a gap between elements -->
 		<video src="resources/videos/excursion.mp4" autoplay loop>
 			<p>Video not supported by browser</p>
 		</video>
@@ -22,10 +27,13 @@
 
 	<div>
 		<h1 class="subject-heading"> Your Personal Travel Guide</h1>
+
+		<!-- used an id here for Specificity due to the background class defaulting text to white-->
 		<p id="gray-subject">Excursion remembers places you like, and recommends new points of interest around you.</p>
 		<img src="resources/images/camp.jpg">
 	</div>
 
+	<!-- displays icon png image added padding to replicate redline mock-->
 	<div id="icon">
 		<img src="resources/images/phone.png">
 	</div>
@@ -36,6 +44,7 @@
 	</div>
 
 	<div>
+		<!-- applied the &copy to display copyright symbol -->
 		<footer id="footer"><h2>&copy Excursion</h2></footer>
 	</div>
 

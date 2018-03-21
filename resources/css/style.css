@@ -1,12 +1,13 @@
 .background {
+	background-color: black;
 	text-align: center;
+	color:white;
 }
 
 #heading{
 	font-family: Verdana;
 	font-weight: normal;
 	font-size: 50px;
-	color:white;
 	
 }
 
@@ -19,7 +20,7 @@
 	font-family: Verdana;
 	font-weight: 300;
 	font-size: 42px;
-	color:white;
+	
 }
 
 #gray-subject {
@@ -31,4 +32,8 @@
 #footer h2{
 	color: gray;
 	text-align: right;
+}
+
+#icon{
+	padding: 20px;
 }
